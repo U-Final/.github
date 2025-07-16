@@ -61,7 +61,7 @@
 ## 2. 기능
 <table>
   <tr>
-    <th>🏠 메인 페이지</th>
+    <th>메인 페이지</th>
     <td>
       • 개인화된 맞춤 제휴처 추천 (행동/검색/위치 기반 알고리즘)<br/>
       • 내 주변 제휴처 실시간 확인<br/>
@@ -70,7 +70,7 @@
     </td>
   </tr>
   <tr>
-    <th>🗺️ 지도 페이지</th>
+    <th>지도 페이지</th>
     <td>
       • 현재 위치 중심으로 제휴 매장 마커 시각화 및 혜택 정보 팝업 제공<br/>
       • 카테고리 및 브랜드 2중 필터링<br/>
@@ -78,7 +78,7 @@
     </td>
   </tr>
   <tr>
-    <th>🗂️ MyMap</th>
+    <th>MyMap</th>
     <td>
       • 테마별 폴더 생성 (예: 데이트코스, 혼밥 맛집 등)<br/>
       • 매장 저장, 수정, 삭제 및 외부 공유 링크(URL) 생성<br/>
@@ -86,7 +86,7 @@
     </td>
   </tr>
   <tr>
-    <th>📍 U+ FootPrint</th>
+    <th>U+ FootPrint</th>
     <td>
       • 최근 방문 유저의 마커 자동 표시 (닉네임/방문시간)<br/>
       • 개인정보 동의 기반 마커 공유<br/>
@@ -94,7 +94,7 @@
     </td>
   </tr>
   <tr>
-    <th>👤 개인화 기능</th>
+    <th>개인화 기능</th>
     <td>
       • 할인 받은 금액, 관심 브랜드/카테고리 관리<br/>
       • 즐겨찾기 추가/조회/삭제<br/>
@@ -103,14 +103,14 @@
     </td>
   </tr>
   <tr>
-    <th>📋 제휴처 목록</th>
+    <th>제휴처 목록</th>
     <td>
       • 전체 제휴 브랜드 검색 및 카테고리/브랜드별 필터링<br/>
       • 각 브랜드 클릭 시 상세 혜택 및 사용 방법 확인
     </td>
   </tr>
   <tr>
-    <th>🔐 인증 / 인가</th>
+    <th>인증 / 인가</th>
     <td>
       • 카카오 소셜 로그인 및 JWT 기반 인증<br/>
       • 회원가입 시 설문조사 진행 (선호 브랜드, 카테고리)<br/>
@@ -118,7 +118,7 @@
     </td>
   </tr>
   <tr>
-    <th>🎯 추천 알고리즘</th>
+    <th>추천 알고리즘</th>
     <td>
       • 검색/방문/즐겨찾기 등 행동 기반 개인화 추천<br/>
       • 동일 카테고리 내 미방문 매장 추천 ("여긴 어때요?")<br/>
@@ -126,7 +126,7 @@
     </td>
   </tr>
   <tr>
-    <th>🛠️ 관리자 기능</th>
+    <th>관리자 기능</th>
     <td>
       • 제휴 브랜드 및 매장 정보 추가/수정/삭제<br/>
       • 전체 사용자 행동 기반 통계 (DAU/MAU, 카테고리 인기도 등)<br/>
@@ -138,10 +138,11 @@
 
 ## 3. 기술 스택 및 아키텍처
 ### 3.1 주요 기술 스택
+[기술 스택 선정 이유 보러가기](https://frill-bead-406.notion.site/U-HYU-23240e6da57480748892c5cfd3a003af)
+
 <details>
   <summary><strong>⚙️ Backend</strong></summary>
 
-  기술스택 선정한 이유는 링크로 첨부할 예정
   ### 주요 프레임워크
   <img src="https://img.shields.io/badge/Java_17-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
@@ -169,7 +170,6 @@
 <details>
   <summary><strong>🖥️ Frontend</strong></summary>
 
-  기술스택 선정한 이유는 링크로 첨부할 예정
   ### 프레임워크 & 스타일
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -194,7 +194,6 @@
 <details>
   <summary><strong>🗄️ Database</strong></summary>
 
-  기술스택 선정한 이유는 링크로 첨부할 예정
   ### RDB & 공간정보
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/PostGIS-008000?style=for-the-badge&logo=postgresql&logoColor=white"/>
@@ -204,7 +203,6 @@
 <details>
   <summary><strong>☁️ Infra & Architecture</strong></summary>
 
-  기술스택 선정한 이유는 링크로 첨부할 예정
   ### 클라우드
   <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
   <img src="https://img.shields.io/badge/AWS_RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"/>
@@ -225,11 +223,12 @@
 <details>
   <summary><strong>⚙️ Backend</strong></summary>
 
+### 디렉토리 구조 목적
   <p>
-  <strong>디렉토리 구조 목적</strong><br/>
-  <strong>domain/</strong>폴더는 기능별 도메인을 독립적으로 구성하여 <strong>관심사 분리(SoC)</strong>를 실현하고,<br/>
-  각 도메인 내부에 dto, entity, repository, service 등 역할을 구분하여 내부 응집도 높임.<br/>
-  <strong>global/</strong> 폴더는 전체 시스템에서 재사용되는 요소들을 한 곳에 모아 중복 제거와 통일성 있는 설정 관리를 목표.</p>
+    <strong>domain/</strong>폴더는 기능별 도메인을 독립적으로 구성하여 <strong>관심사 분리(SoC)</strong>를 실현하고,<br/>
+    각 도메인 내부에 dto, entity, repository, service 등 역할을 구분하여 내부 응집도 높임.<br/>
+    <strong>global/</strong> 폴더는 전체 시스템에서 재사용되는 요소들을 한 곳에 모아 중복 제거와 통일성 있는 설정 관리를 목표.
+  </p>
   
   <pre>
 uhyubackend
@@ -266,11 +265,10 @@ uhyubackend
 <details>
   <summary><strong>🖥️ Frontend</strong></summary>
 
-  <p>
-  <strong>디렉토리 구조 목적</strong><br/>
-  기능(도메인) 단위로 책임을 분리하여 협업 효율을 극대화.<br/>
+  ### 디렉토리 구조 목적
+  <p>기능(도메인) 단위로 책임을 분리하여 협업 효율을 극대화.<br/>
   <strong>features/</strong> 에서 역할별 분리로 유지보수와 편의성을 향상하고자 함.<br/>
-  <strong>shared/</strong> 는 기능에 국한되지 않는 전역 자원으로 의존성을 가지지 않는 공유 파일들만 구성.</p>
+  <strong>shared/</strong> 는 특정 기능에 종속되지 않는 공통 자원을 관리하며, 제사용 가능한 범용 유틸리티 및 컴포넌트만을 포함.</p>
 
   <pre>
 src/
@@ -309,18 +307,19 @@ src/
 </details>
 
 ## 4. 프로젝트 결과물
-> [!WARNING]
-> 추후 추가 예정!
-
 <details>
-
+  <summary>추후 내용 추가 예정</summary>
+  
   ### 4.1 서비스 화면 및 기능 시연
   ### 4.2 성능 최적화 / 테스트 전략
   ### 4.3 사용자 피드백
   ### 4.4 트러블 슈팅(문제발생, 해결방안, 결과)
+  <hr/>
 </details>
 
-## 5. 개발 일정 및 마일스톤
+## 5. 개발 일정(2025.07.05 ~ 2025.08.07)
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/ffbbe9f8-752a-44a2-9fb0-b271c9e9a98c" />
+
 
 ## 6. 회고 및 향후 개선 방향
 > [!WARNING]
@@ -330,9 +329,8 @@ src/
   이름, 역할, 맡은 기능
   
 ## 8. 프로젝트 산출물
-  발표자료, 시연 영상, 기획안, 노션, 피그마?
 > [!WARNING]
-> 추후 추가 예정!
+> 추후 추가 예정! (발표자료, 시연 영상, 기획안, 노션, 피그마?)
 
 ## 9. 협업 환경 & 툴
 
