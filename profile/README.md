@@ -140,7 +140,8 @@
 ### 3.1 주요 기술 스택
 <details>
   <summary><strong>⚙️ Backend</strong></summary>
-  
+
+  기술스택 선정한 이유는 링크로 첨부할 예정
   ### 주요 프레임워크
   <img src="https://img.shields.io/badge/Java_17-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
@@ -160,11 +161,15 @@
   <img src="https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white"/>
   <img src="https://img.shields.io/badge/Mockito-78A641?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white"/>
+  
+  ### 추천 시스템
   <img src="https://img.shields.io/badge/LightFM-FF6F00?style=for-the-badge&logo=python&logoColor=white"/>
+  <hr/>
 </details>
 <details>
   <summary><strong>🖥️ Frontend</strong></summary>
-  
+
+  기술스택 선정한 이유는 링크로 첨부할 예정
   ### 프레임워크 & 스타일
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -183,20 +188,23 @@
   <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
   <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/>
   <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black"/>
+  <hr/>
 </details>
   
 <details>
   <summary><strong>🗄️ Database</strong></summary>
 
+  기술스택 선정한 이유는 링크로 첨부할 예정
   ### RDB & 공간정보
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/PostGIS-008000?style=for-the-badge&logo=postgresql&logoColor=white"/>
-
+  <hr/>
 </details>
 
 <details>
   <summary><strong>☁️ Infra & Architecture</strong></summary>
 
+  기술스택 선정한 이유는 링크로 첨부할 예정
   ### 클라우드
   <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
   <img src="https://img.shields.io/badge/AWS_RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"/>
@@ -205,7 +213,7 @@
   ### 배포 & 자동화
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-
+  <hr/>
 </details>
 
 ### 3.2 ERD
@@ -216,10 +224,16 @@
 
 <details>
   <summary><strong>⚙️ Backend</strong></summary>
+
+  <p>
+  <strong>디렉토리 구조 목적</strong><br/>
+  <strong>domain/</strong>폴더는 기능별 도메인을 독립적으로 구성하여 <strong>관심사 분리(SoC)</strong>를 실현하고,<br/>
+  각 도메인 내부에 dto, entity, repository, service 등 역할을 구분하여 내부 응집도 높임.<br/>
+  <strong>global/</strong> 폴더는 전체 시스템에서 재사용되는 요소들을 한 곳에 모아 중복 제거와 통일성 있는 설정 관리를 목표.</p>
   
   <pre>
 uhyubackend
-├── domain
+├── domain                     # 기능 단위 도메인별 패키지 (관심사 분리)
 │   ├── apply
 │   ├── auth
 │   ├── likes
@@ -233,7 +247,7 @@ uhyubackend
 │   ├── mypage
 │   └── recruit
 │
-├── global
+├── global                     # 공통 설정, 예외 처리, 유틸 등 전체 시스템에서 공유되는 로직 관리
 │   ├── config
 │   ├── entity
 │   ├── exception
@@ -241,15 +255,22 @@ uhyubackend
 │
 ├── UhyuApplication.java
 │
-├── resources
+├── resources                     # 환경설정 및 DB 관련 설정
 │   ├── db
 │   │   └── changelog 
 │   └── application.yml
   </pre>
+  <hr/>
 </details>
 
 <details>
   <summary><strong>🖥️ Frontend</strong></summary>
+
+  <p>
+  <strong>디렉토리 구조 목적</strong><br/>
+  기능(도메인) 단위로 책임을 분리하여 협업 효율을 극대화.<br/>
+  <strong>features/</strong> 에서 역할별 분리로 유지보수와 편의성을 향상하고자 함.<br/>
+  <strong>shared/</strong> 는 기능에 국한되지 않는 전역 자원으로 의존성을 가지지 않는 공유 파일들만 구성.</p>
 
   <pre>
 src/
@@ -284,24 +305,34 @@ src/
 ├── tests/
 └── index.tsx
   </pre>
-  
+  <hr/>
 </details>
 
 ## 4. 프로젝트 결과물
+> [!WARNING]
+> 추후 추가 예정!
+
+<details>
+
   ### 4.1 서비스 화면 및 기능 시연
   ### 4.2 성능 최적화 / 테스트 전략
   ### 4.3 사용자 피드백
   ### 4.4 트러블 슈팅(문제발생, 해결방안, 결과)
+</details>
 
 ## 5. 개발 일정 및 마일스톤
 
 ## 6. 회고 및 향후 개선 방향
+> [!WARNING]
+> 추후 추가 예정!
 
 ## 7. 팀원 소개 및 역할 분담
   이름, 역할, 맡은 기능
   
 ## 8. 프로젝트 산출물
   발표자료, 시연 영상, 기획안, 노션, 피그마?
+> [!WARNING]
+> 추후 추가 예정!
 
 ## 9. 협업 환경 & 툴
 
