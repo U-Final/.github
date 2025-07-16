@@ -1,5 +1,5 @@
 <details>
-  <summary>📌 목차</summary>  
+  <summary>목차 <code>Click!</code></summary>  
   
 ## [1. 프로젝트 소개](#1-프로젝트-소개)<br/>
   ###### [1.1 프로젝트 개요](#11-프로젝트-개요)<br/>
@@ -59,7 +59,7 @@
 
 
 ## 2. 기능
-<table>
+<table width="1000px">
   <tr>
     <th>메인 페이지</th>
     <td>
@@ -138,10 +138,11 @@
 
 ## 3. 기술 스택 및 아키텍처
 ### 3.1 주요 기술 스택
-[기술 스택 선정 이유 보러가기](https://frill-bead-406.notion.site/U-HYU-23240e6da57480748892c5cfd3a003af)
+[기술 스택 선정 이유 보러가기(Click!)](https://frill-bead-406.notion.site/U-HYU-23240e6da57480748892c5cfd3a003af)
+> 새 창 열기 방법 : CTRL+Click (on Windows and Linux) | CMD+Click (on MacOS)
 
 <details>
-  <summary><strong>⚙️ Backend</strong></summary>
+  <summary><strong>⚙️ Backend <code>Click!</code></strong></summary>
 
   ### 주요 프레임워크
   <img src="https://img.shields.io/badge/Java_17-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
@@ -168,7 +169,7 @@
   <hr/>
 </details>
 <details>
-  <summary><strong>🖥️ Frontend</strong></summary>
+  <summary><strong>🖥️ Frontend <code>Click!</code></strong></summary>
 
   ### 프레임워크 & 스타일
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white"/>
@@ -192,7 +193,7 @@
 </details>
   
 <details>
-  <summary><strong>🗄️ Database</strong></summary>
+  <summary><strong>🗄️ Database <code>Click!</code></strong></summary>
 
   ### RDB & 공간정보
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
@@ -201,7 +202,7 @@
 </details>
 
 <details>
-  <summary><strong>☁️ Infra & Architecture</strong></summary>
+  <summary><strong>☁️ Infra & Architecture <code>Click!</code></strong></summary>
 
   ### 클라우드
   <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
@@ -221,7 +222,7 @@
 ### 3.4 프로젝트 폴더 구조
 
 <details>
-  <summary><strong>⚙️ Backend</strong></summary>
+  <summary><strong>⚙️ Backend <code>Click!</code></strong></summary>
 
 ### 디렉토리 구조 목적
   <p>
@@ -263,12 +264,12 @@ uhyubackend
 </details>
 
 <details>
-  <summary><strong>🖥️ Frontend</strong></summary>
+  <summary><strong>🖥️ Frontend <code>Click!</code></strong></summary>
 
   ### 디렉토리 구조 목적
   <p>기능(도메인) 단위로 책임을 분리하여 협업 효율을 극대화.<br/>
   <strong>features/</strong> 에서 역할별 분리로 유지보수와 편의성을 향상하고자 함.<br/>
-  <strong>shared/</strong> 는 특정 기능에 종속되지 않는 공통 자원을 관리하며, 제사용 가능한 범용 유틸리티 및 컴포넌트만을 포함.</p>
+  <strong>shared/</strong> 는 특정 기능에 종속되지 않는 공통 자원을 관리하며, 재사용 가능한 범용 유틸리티 및 컴포넌트만을 포함.</p>
 
   <pre>
 src/
@@ -325,8 +326,122 @@ src/
 > [!WARNING]
 > 추후 추가 예정!
 
-## 7. 팀원 소개 및 역할 분담
-  이름, 역할, 맡은 기능
+## 7. U-HYU를 만들어가는 사람들
+[멤버 소개 보러가기(Click!)](https://frill-bead-406.notion.site/22d40e6da5748062b9bddc4785184a82?v=22d40e6da57481958b5f000c72c8e0ea)
+> 새 창 열기 방법 : CTRL+Click (on Windows and Linux) | CMD+Click (on MacOS)
+
+<table>
+  <thead>
+    <tr>
+      <th>프로필</th>
+      <th>이름 & 역할</th>
+      <th>담당 업무</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://avatars.githubusercontent.com/u/100357408?v=4" width="150" height="150" style="object-fit:cover;" />
+      </td>
+      <td>
+        <strong><a href="https://github.com/pillow12360">pillow12360</a></strong><br/>
+        <code>Project Leader</code><br/>
+        <code>FE Leader</code><br/>
+        <code>FE</code>
+      </td>
+      <td>
+        - 문서화<br/>
+        - FE 인프라 설정<br/>
+        - 지도 페이지 총괄 구현
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://avatars.githubusercontent.com/u/127932430?v=4" width="150" height="150" style="object-fit:cover;" />
+      </td>
+      <td>
+        <strong><a href="https://github.com/djlim00">djlim00</a></strong><br/>
+        <code>BE Leader</code><br/>
+        <code>BE</code>
+      </td>
+      <td>
+        - BE 인프라 설정<br/>
+        - DB 모델링<br/>
+        - 지도 시스템 구현
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://avatars.githubusercontent.com/u/198835896?v=4" width="150" height="150" style="object-fit:cover;" />
+      </td>
+      <td>
+        <strong><a href="https://github.com/heejun8">heejun8</a></strong><br/>
+        <code>FE</code>
+      </td>
+      <td>
+        - UX/UI 피그마 디자인<br/>
+        - 마이페이지 구현<br/>
+        - 풋 프린트 지도 페이지 구현
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://avatars.githubusercontent.com/u/138192341?v=4" width="150" height="150" style="object-fit:cover;" />
+      </td>
+      <td>
+        <strong><a href="https://github.com/leedaye0412">leedaye0412</a></strong><br/>
+        <code>FE</code>
+      </td>
+      <td>
+        - UX/UI 피그마 디자인<br/>
+        - 공통 컴포넌트 개발<br/>
+        - 제휴처 목록 페이지 개발<br/>
+        - MyMap 공유 개발
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://avatars.githubusercontent.com/u/66356241?v=4" width="150" height="150" style="object-fit:cover;" />
+      </td>
+      <td>
+        <strong><a href="https://github.com/Leesowon">Leesowon</a></strong><br/>
+        <code>BE</code>
+      </td>
+      <td>
+        - 인증, 인가 시스템 구현<br/>
+        - 추천 시스템 구현
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://avatars.githubusercontent.com/u/153170795?v=4" width="150" height="150" style="object-fit:cover;" />
+      </td>
+      <td>
+        <strong><a href="https://github.com/ihyeeun">ihyeeun</a></strong><br/>
+        <code>FE</code>
+      </td>
+      <td>
+        - UX/UI 피그마 디자인<br/>
+        - 공통 컴포넌트 개발<br/>
+        - 홈페이지 구현<br/>
+        - 즐겨찾기 관련 구현
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://avatars.githubusercontent.com/u/67690073?v=4" width="150" height="150" style="object-fit:cover;" />
+      </td>
+      <td>
+        <strong><a href="https://github.com/etoile0626">etoile0626</a></strong><br/>
+        <code>BE</code>
+      </td>
+      <td>
+        - 회원 시스템 구현<br/>
+        - 어드민/통계 시스템 구현
+      </td>
+    </tr>
+  </tbody>
+</table>
   
 ## 8. 프로젝트 산출물
 > [!WARNING]
