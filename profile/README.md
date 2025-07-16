@@ -208,10 +208,84 @@
 
 </details>
 
-  ### 3.2 ERD
-  ### 3.3 시스템 구성도
+### 3.2 ERD
+<img width="1504" alt="U-HYU ERD Image" src="https://github.com/user-attachments/assets/efa7c64e-f8eb-4a93-864b-3d5024005efd" />
+
+### 3.3 시스템 구성도
 ### 3.4 프로젝트 폴더 구조
-폴더구조..
+
+<details>
+  <summary><strong>⚙️ Backend</strong></summary>
+  
+  <pre>
+uhyubackend
+├── domain
+│   ├── apply
+│   ├── auth
+│   ├── likes
+│   ├── store
+│   └── user
+│       ├── dto
+│       ├── entity
+│       ├── enums
+│       ├── repository
+│       └── service
+│   ├── mypage
+│   └── recruit
+│
+├── global
+│   ├── config
+│   ├── entity
+│   ├── exception
+│   └── util
+│
+├── UhyuApplication.java
+│
+├── resources
+│   ├── db
+│   │   └── changelog 
+│   └── application.yml
+  </pre>
+</details>
+
+<details>
+  <summary><strong>🖥️ Frontend</strong></summary>
+
+  <pre>
+src/
+├── features/                     # 도메인(기능)별 핵심 비즈니스 로직
+│   ├── user/                         # 사용자 관련 기능
+│   │   ├── api/
+│   │   │   ├── userApi.ts
+│   │   │   ├── types.ts
+│   │   │   └── endpoints.ts      # API 경로 상수 정의 (ex. USER_API = "/api/user")
+│   │   ├── hooks/
+│   │   │   ├── useUserQuery.ts
+│   │   │   └── useUserMutation.ts
+│   │   ├── components/
+│   │   └── index.ts
+│   ├── auth/                         # 인증 (OAuth, JWT)
+│   ├── map/                          # 지도 도메인
+│   ├── store/                        # 제휴 매장/스토어 도메인
+│   ├── footprint/                    # 사용자 발자국 도메인
+│   ├── mymap/                        # 개인 지도 도메인
+│   ├── recommendation/              # 추천 알고리즘 도메인
+│   └── admin/                        # 관리자/통계 도메인
+│
+├── shared/                       # 프로젝트 전역 공유 리소스
+│   ├── components/                   # 버튼, 카드 등 공통 UI 컴포넌트
+│   ├── hooks/                        # 전역 커스텀 훅
+│   ├── store/                        # 전역 상태관리 (예: 로그인 상태, 모달 등)
+│   ├── client                        # axios, query client, intercept 유틸 함수 등
+│   ├── constants/                    # API_BASE_URL 등
+│   └── types/                        # 여러 도메인에서 공유되는 전역 타입
+│
+├── pages/                        # 라우팅 페이지 (React Router 기준)
+├── tests/
+└── index.tsx
+  </pre>
+  
+</details>
 
 ## 4. 프로젝트 결과물
   ### 4.1 서비스 화면 및 기능 시연
