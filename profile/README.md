@@ -444,8 +444,11 @@ src/
 </table>
   
 ## 8. 프로젝트 산출물
+|[기획안](https://docs.google.com/document/d/1gqqA89KHjmGXxznVgxsuTw6tm-W0yQaeCT6iQrPIJto/edit?usp=sharing)|[피그마](https://www.figma.com/design/fcYR71HZ02gyEJefPS8YKP/U-HYU-Project?node-id=1-1940&t=RtYF6RAFod3afScd-1)|발표자료|시연 영상|노션|
+|:--:|:--:|:--:|:--:|:--:|
+
 > [!WARNING]
-> 추후 추가 예정! (발표자료, 시연 영상, 기획안, 노션, 피그마?)
+> 추후 추가 예정! (발표자료, 시연 영상, 노션)
 
 ## 9. 협업 환경 & 툴
 
