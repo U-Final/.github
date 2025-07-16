@@ -442,6 +442,10 @@ src/
     </tr>
   </tbody>
 </table>
+
+> 7인 모든 팀원이 기획, 개발 전 과정을 함께 주도한 협업 프로젝트입니다. <br/>
+> 중심 기여 영역을 기준으로 나열했으나, 모든 팀원의 서로의 작업에 적극 참여하며 함께 완성도를 높였습니다.<br/>
+> 또한 기능별/시기별 역할을 유연하게 나누고 협업 했습니다!
   
 ## 8. 프로젝트 산출물
 |[기획안](https://docs.google.com/document/d/1gqqA89KHjmGXxznVgxsuTw6tm-W0yQaeCT6iQrPIJto/edit?usp=sharing)|[피그마](https://www.figma.com/design/fcYR71HZ02gyEJefPS8YKP/U-HYU-Project?node-id=1-1940&t=RtYF6RAFod3afScd-1)|발표자료|시연 영상|노션|
@@ -451,8 +455,13 @@ src/
 > 추후 추가 예정! (발표자료, 시연 영상, 노션)
 
 ## 9. 협업 환경 & 툴
+|<img src="https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white" height="100"/>|<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="100"/>|<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="100"/>|
+|:--:|:--:|:--:|
+|이슈 관리 및 작업 추적|소스 코드 관리 및 버전 관리|팀 커뮤니케이션 및 PR 알림|
 
 ## 10. 협업 컨벤션 / 절차
-  ### 10.1 JIRA 사용 흐름
-  ### 10.2 GIT 컨벤션
-  ### 10.3 기타 규칙(코드리뷰, PR 템플릿 등)
+### 10.1 JIRA 사용 흐름
+[U-HYU만의 JIRA 사용법 보러가기(Click!)]( https://frill-bead-406.notion.site/22540e6da574806c879dd8e85078adb7)
+> 새 창 열기 방법 : CTRL+Click (on Windows and Linux) | CMD+Click (on MacOS)
+### 10.2 GIT 컨벤션
+### 10.3 기타 규칙(코드리뷰, PR 템플릿 등)
