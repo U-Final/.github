@@ -35,7 +35,7 @@
 <hr/>
 </details>
 
-# U-HYU 서비스
+# 👋 Welcome to U-HYU
 ## 1. 프로젝트 소개
 ### 1.1 프로젝트 개요
 주변 멤버십 혜택을 지도로 찾고, 다른 사람들의 이용 현황과 나만의 매장 리스트를 공유하는 지도 플랫폼
@@ -137,10 +137,81 @@
 </table>
 
 ## 3. 기술 스택 및 아키텍처
-  ### 3.1 주요 기술 스택
+### 3.1 주요 기술 스택
+<details>
+  <summary><strong>⚙️ Backend</strong></summary>
+  
+  ### 주요 프레임워크
+  <img src="https://img.shields.io/badge/Java_17-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  
+  ### 보안 & 인증
+  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OAuth2-EC407A?style=for-the-badge&logo=openid&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+  
+  ### ORM & 문서화
+  <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/QueryDSL-4479A1?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
+  
+  ### 테스트 & 버전관리
+  <img src="https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Mockito-78A641?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LightFM-FF6F00?style=for-the-badge&logo=python&logoColor=white"/>
+</details>
+<details>
+  <summary><strong>🖥️ Frontend</strong></summary>
+  
+  ### 프레임워크 & 스타일
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/shadcn/ui-111827?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge"/>
+  
+  ### 상태관리 & 통신
+  <img src="https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=zotero&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"/>
+  
+  ### 개발 도구
+  <img src="https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Recharts-8884D8?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black"/>
+</details>
+  
+<details>
+  <summary><strong>🗄️ Database</strong></summary>
+
+  ### RDB & 공간정보
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostGIS-008000?style=for-the-badge&logo=postgresql&logoColor=white"/>
+
+</details>
+
+<details>
+  <summary><strong>☁️ Infra & Architecture</strong></summary>
+
+  ### 클라우드
+  <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS_RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"/>
+  <img src="https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+
+  ### 배포 & 자동화
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+
+</details>
+
   ### 3.2 ERD
   ### 3.3 시스템 구성도
-  ### 3.4 프로젝트 폴더 구조
+### 3.4 프로젝트 폴더 구조
+폴더구조..
 
 ## 4. 프로젝트 결과물
   ### 4.1 서비스 화면 및 기능 시연
